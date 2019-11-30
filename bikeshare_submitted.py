@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 # coding: utf-8
+
+"""explores bike share use in Chicago, New York City and Washington. It sollicits the user's 
+interaction for the choice of the city, the month and the day of the week. It then displays 
+lines of data as requested by the user and proceeds to calculate some interesting statistics
+ """
 import pandas as pd
 import numpy as np
 import os

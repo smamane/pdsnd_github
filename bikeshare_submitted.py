@@ -5,13 +5,10 @@
 interaction for the choice of the city, the month and the day of the week. It then displays 
 lines of data as requested by the user and proceeds to calculate some interesting statistics
  """
-import pandas as pd
-import numpy as np
-import os
+
 import time
-import matplotlib.pyplot as pp
-
-
+import numpy as np
+import pandas as pd
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
@@ -311,7 +308,7 @@ def user_stats(df):
             time.sleep(3)
         print("The most advanced age at riding time is %s years?" %max(riding_age))
       
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print("\nThis took %s seconds." % (time.time() - start_time-6))
     print('-'*40)
 
 
@@ -351,7 +348,3 @@ def main():
 if __name__ == "__main__":
     main()
 # In[ ]:
-
-
-
-

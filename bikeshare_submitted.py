@@ -1,12 +1,8 @@
 #!/usr/bin/env python
-# coding: utf-8
-import pandas as pd
-import numpy as np
-import os
+# coding: utf-8import os
 import time
-import matplotlib.pyplot as pp
-
-
+import numpy as np
+import pandas as pd
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
@@ -346,7 +342,3 @@ def main():
 if __name__ == "__main__":
     main()
 # In[ ]:
-
-
-
-

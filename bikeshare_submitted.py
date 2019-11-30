@@ -302,7 +302,7 @@ def user_stats(df):
             time.sleep(3)
         print("The most advanced age at riding time is %s years?" %max(riding_age))
       
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print("\nThis took %s seconds." % (time.time() - start_time-6))
     print('-'*40)
 
 

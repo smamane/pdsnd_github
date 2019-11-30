@@ -7,9 +7,9 @@
 This project was done as part of a Udacity *Programming For Data Science For Enterprise* nanodegree program. It explores bike share use in Chicago, New York City and Washington.
 The **Python** code sollicits the user's interaction for the choice of the city, the month and the day of the week. It then displays lines of data as requested by the user and proceeds to calculate some interesting statistics:
 * Most popular times of travel
-*Most popular stations and trips
-*Trip duration
-*Gender and age of users 
+* Most popular stations and trips
+* Trip duration
+* Gender and age of users 
 
 ### Files used
 To run, the code requires the following files:

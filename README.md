@@ -17,6 +17,12 @@ To run, the code requires the following files:
 * _new_york_city.csv_
 * _washington.csv_
 
+### Software requirements
+
+* Python           : 3.7.4.final.0
+* Numpy            : 1.16.5
+* Pandas           : 0.25.1
+
 
 ### Credits
 The data used was obtained from [here](https://www.bikeshare.com/data).
